@@ -1,0 +1,170 @@
+package com.example.translation;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Translations {
+    private static final Map<String, String> MODULE_NAMES = new HashMap<>();
+    private static final Map<String, String> CATEGORY_NAMES = new HashMap<>();
+
+    static {
+        // 类别名汉化
+        CATEGORY_NAMES.put("Combat", "战斗");
+        CATEGORY_NAMES.put("Player", "玩家");
+        CATEGORY_NAMES.put("Movement", "移动");
+        CATEGORY_NAMES.put("Render", "渲染");
+        CATEGORY_NAMES.put("World", "世界");
+        CATEGORY_NAMES.put("Misc", "杂项");
+
+        // 模块名汉化
+        MODULE_NAMES.put("Air Jump", "空中跳");
+        MODULE_NAMES.put("Ambience", "环境音效");
+        MODULE_NAMES.put("Anchor", "锚点");
+        MODULE_NAMES.put("Anchor Aura", "重生锚光环");
+        MODULE_NAMES.put("Anti Anchor", "防重生锚");
+        MODULE_NAMES.put("Anti Anvil", "防铁砧");
+        MODULE_NAMES.put("Anti Bed", "防床炸");
+        MODULE_NAMES.put("Anti Packet Kick", "防大量发包踢");
+        MODULE_NAMES.put("Anti Void", "防虚空");
+        MODULE_NAMES.put("Arrow Dodge", "躲箭");
+        MODULE_NAMES.put("Attribute Swap", "属性交换");
+        MODULE_NAMES.put("Auto Anvil", "自动铁砧");
+        MODULE_NAMES.put("Auto Armor", "自动穿甲");
+        MODULE_NAMES.put("Auto Breed", "自动喂动物");
+        MODULE_NAMES.put("Auto Brewer", "自动酿造");
+        MODULE_NAMES.put("Auto City", "自动破城");
+        MODULE_NAMES.put("Auto EXP", "自动经验瓶");
+        MODULE_NAMES.put("Auto Jump", "自动跳跃");
+        MODULE_NAMES.put("Auto Log", "自动下线");
+        MODULE_NAMES.put("Auto Mount", "自动骑乘");
+        MODULE_NAMES.put("Auto Nametag", "自动命名");
+        MODULE_NAMES.put("Auto Reconnect", "自动重连");
+        MODULE_NAMES.put("Auto Shearer", "自动剪羊毛");
+        MODULE_NAMES.put("Auto Sign", "自动标识牌");
+        MODULE_NAMES.put("Auto Smelter", "自动熔炉");
+        MODULE_NAMES.put("Auto Totem", "自动换图腾");
+        MODULE_NAMES.put("Auto Trap", "自动陷阱");
+        MODULE_NAMES.put("Auto Walk", "面前方向跑图");
+        MODULE_NAMES.put("Auto Wasp", "自动黄蜂");
+        MODULE_NAMES.put("Auto Weapon", "自动武器");
+        MODULE_NAMES.put("Auto Web", "自动蜘蛛网");
+        MODULE_NAMES.put("Bed Aura", "床光环");
+        MODULE_NAMES.put("Better Beacons", "更好信标效果");
+        MODULE_NAMES.put("Better Chat", "优化聊天");
+        MODULE_NAMES.put("Better Tooltips", "更好物品提示");
+        MODULE_NAMES.put("BetterTab", "优化tab栏");
+        MODULE_NAMES.put("Blink", "瞬移");
+        MODULE_NAMES.put("Block Selection", "选中方块效果");
+        MODULE_NAMES.put("Blur", "模糊");
+        MODULE_NAMES.put("Book Bot", "文件写书");
+        MODULE_NAMES.put("Boss Stack", "boss栏隐藏");
+        MODULE_NAMES.put("Bow Aim", "弓箭瞄准");
+        MODULE_NAMES.put("Bow Spam", "弓箭连发");
+        MODULE_NAMES.put("Breadcrumbs", "面包屑");
+        MODULE_NAMES.put("Break Indicators", "挖掘效果");
+        MODULE_NAMES.put("Build Height", "高度限制互动");
+        MODULE_NAMES.put("Burrow", "埋下半身");
+        MODULE_NAMES.put("Camera Tweaks", "F5相机调整");
+        MODULE_NAMES.put("Chams", "透视");
+        MODULE_NAMES.put("City ESP", "破城透视");
+        MODULE_NAMES.put("Click TP", "右键点击传送");
+        MODULE_NAMES.put("Collisions", "添加碰撞箱");
+        MODULE_NAMES.put("Criticals", "暴击");
+        MODULE_NAMES.put("Crystal Aura", "水晶光环");
+        MODULE_NAMES.put("Discord Presence", "discord在线");
+        MODULE_NAMES.put("EChest Farmer", "未影箱挖黑曜石");
+        MODULE_NAMES.put("Elytra Boost", "鞘翅用烟花");
+        MODULE_NAMES.put("Enderman Look", "未影人事件通知");
+        MODULE_NAMES.put("Entity Control", "实体控制");
+        MODULE_NAMES.put("Entity Owner", "实体主人");
+        MODULE_NAMES.put("ESP", "透视");
+        MODULE_NAMES.put("Excavator", "挖掘机");
+        MODULE_NAMES.put("Fast Climb", "快爬梯子");
+        MODULE_NAMES.put("Fast Use", "快速使用");
+        MODULE_NAMES.put("Flamethrower", "火焰喷射器");
+        MODULE_NAMES.put("Flight", "飞行");
+        MODULE_NAMES.put("Free Look", "锁定视角");
+        MODULE_NAMES.put("Freecam", "灵魂出窍");
+        MODULE_NAMES.put("Fullbright", "夜视");
+        MODULE_NAMES.put("GUI Move", "开GUI移动");
+        MODULE_NAMES.put("Ghost Hand", "长胳膊");
+        MODULE_NAMES.put("Hand View", "手臂视角");
+        MODULE_NAMES.put("High Jump", "高跳");
+        MODULE_NAMES.put("Highway Builder", "建高速路");
+        MODULE_NAMES.put("Hitboxes", "碰撞箱扩大");
+        MODULE_NAMES.put("Hole ESP", "安全洞透视");
+        MODULE_NAMES.put("Hole Filler", "进洞/填坑");
+        MODULE_NAMES.put("Infinity Miner", "不休挖矿");
+        MODULE_NAMES.put("Instant Rebreak", "瞬间挖矿");
+        MODULE_NAMES.put("Inventory Tweaks", "物品栏调整");
+        MODULE_NAMES.put("Item Highlight", "物品高亮");
+        MODULE_NAMES.put("Item Physics", "物品物理掉落");
+        MODULE_NAMES.put("Jesus", "水上漂");
+        MODULE_NAMES.put("Kill Aura", "杀光环");
+        MODULE_NAMES.put("Light Overlay", "光照显示");
+        MODULE_NAMES.put("Liquid Filler", "填充液体");
+        MODULE_NAMES.put("Liquid Interact", "液体上放方块");
+        MODULE_NAMES.put("Logout Spots", "玩家下线点");
+        MODULE_NAMES.put("Long Jump", "远跳");
+        MODULE_NAMES.put("Message Aura", "私信光环");
+        MODULE_NAMES.put("Middle Click Extra", "鼠标中键使用");
+        MODULE_NAMES.put("Mount Bypass", "非法骑乘");
+        MODULE_NAMES.put("Multitask", "开GUI失焦");
+        MODULE_NAMES.put("Name Protect", "自定义ID显示");
+        MODULE_NAMES.put("Nametags", "显示假名");
+        MODULE_NAMES.put("No Fall", "防摔");
+        MODULE_NAMES.put("No Ghost Blocks", "无幽灵方块");
+        MODULE_NAMES.put("No Interact", "不交互防误伤");
+        MODULE_NAMES.put("No Mining Trace", "挖掘延迟");
+        MODULE_NAMES.put("No Render", "不渲染");
+        MODULE_NAMES.put("No Rotate", "不旋转");
+        MODULE_NAMES.put("No Slow", "不减速");
+        MODULE_NAMES.put("No Status Effects", "假药水buff");
+        MODULE_NAMES.put("Notebot", "音符盒自动播放");
+        MODULE_NAMES.put("Notifier", "事件通知");
+        MODULE_NAMES.put("Nuker", "周围放方块挖掘速度加快");
+        MODULE_NAMES.put("Offhand", "副手切换");
+        MODULE_NAMES.put("Offhand Crash", "副手崩溃");
+        MODULE_NAMES.put("Packet Canceller", "发包取消");
+        MODULE_NAMES.put("Packet Logger", "发包记录");
+        MODULE_NAMES.put("Packet Mine", "发包挖矿");
+        MODULE_NAMES.put("Parkour", "边缘自动跳");
+        MODULE_NAMES.put("Pop Chams", "爆图腾效果");
+        MODULE_NAMES.put("Portals", "传送门开背包");
+        MODULE_NAMES.put("Potion Saver", "药水节省");
+        MODULE_NAMES.put("Quiver", "箭袋");
+        MODULE_NAMES.put("Reach", "长胳膊");
+        MODULE_NAMES.put("Rotation", "旋转");
+        MODULE_NAMES.put("Self Anvil", "铁砧堵自己");
+        MODULE_NAMES.put("Self Trap", "自陷");
+        MODULE_NAMES.put("Self Web", "自缠蜘蛛网");
+        MODULE_NAMES.put("Server Spoof", "伪装客户端");
+        MODULE_NAMES.put("Sound Blocker", "声音屏蔽");
+        MODULE_NAMES.put("Spam", "聊天栏刷屏");
+        MODULE_NAMES.put("Spawn Proofer", "防刷怪");
+        MODULE_NAMES.put("Speed Mine", "挖掘速度加快");
+        MODULE_NAMES.put("Stash Finder", "存储方块透视");
+        MODULE_NAMES.put("Storage ESP", "存储方块透视");
+        MODULE_NAMES.put("Surround", "周围放方块");
+        MODULE_NAMES.put("Time Changer", "时间渲染");
+        MODULE_NAMES.put("Timer", "加速");
+        MODULE_NAMES.put("Tracers", "实体连线透视");
+        MODULE_NAMES.put("Trail", "小尾巴/大尾巴");
+        MODULE_NAMES.put("Trajectories", "投掷物落点");
+        MODULE_NAMES.put("Tunnel ESP", "隧道透视");
+        MODULE_NAMES.put("Vein Miner", "连锁挖矿");
+        MODULE_NAMES.put("Void ESP", "虚空透视");
+        MODULE_NAMES.put("Wall Hack", "透视");
+        MODULE_NAMES.put("Waypoints", "标记记录容器");
+        MODULE_NAMES.put("Xray", "方块透视");
+        MODULE_NAMES.put("Zoom", "缩放");
+    }
+
+    public static String translateModule(String original) {
+        return MODULE_NAMES.getOrDefault(original, original);
+    }
+
+    public static String translateCategory(String original) {
+        return CATEGORY_NAMES.getOrDefault(original, original);
+    }
+}
